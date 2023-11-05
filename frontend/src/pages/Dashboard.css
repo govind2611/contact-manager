@@ -1,0 +1,86 @@
+.dashboard-container {
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.edit-table {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.edit-table input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.edit-table button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.edit-table button:hover {
+  background-color: #1e7e34;
+}
+.lg-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.create-contact-form {
+  width: 50vw;
+  margin: 10px auto;
+}
+.create-contact-form input {
+  margin: 5px;
+}
+.create-contact-form button {
+  margin-top: 10px;
+}

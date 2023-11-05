@@ -1,0 +1,36 @@
+
+.homepage-2 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .content-2 {
+    padding: 40px;
+  }
+  .content-2 h1,p{
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cta-button-2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button-2:hover {
+    background-color: #0056b3;
+  }
+  
